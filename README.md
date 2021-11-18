@@ -2,8 +2,6 @@
 
 This plugin extends Kirby’s templates with a powerful layout system.
 
-****
-
 ## Installation
 
 ### Download
