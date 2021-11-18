@@ -1,0 +1,16 @@
+{
+    "name": "getkirby/layouts",
+    "description": "Kirby Layouts Plugin",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/getkirby/layouts",
+    "authors": [
+        {
+            "name": "Bastian Allgeier",
+            "email": "bastian@getkirby.com"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.2"
+    }
+}
