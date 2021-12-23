@@ -50,6 +50,6 @@ class Layout
     static public function render(array $data = []): string
     {
         Slots::render();
-        return Tpl::load(kirby()->root('site') . '/layouts/' . static::$name . '.php', $data);
+        return Tpl::load(kirby()->root('site') . '/layouts/' . static::$name . '.php', array_merge(Layout::$data ?? [], $data));
     }
 }
