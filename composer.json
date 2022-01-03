@@ -1,8 +1,9 @@
 {
     "name": "getkirby/layouts",
     "description": "Kirby Layouts Plugin",
-    "type": "kirby-plugin",
     "license": "MIT",
+    "type": "kirby-plugin",
+    "version": "1.0.0",
     "homepage": "https://github.com/getkirby/layouts",
     "authors": [
         {
