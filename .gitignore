@@ -1,13 +1,13 @@
 # OS files
 .DS_Store
 
-# npm modules
+# Vendor files
 /node_modules
-
-# Composer files
 /vendor
 
-# Editors
-*.sublime-workspace
-/.vscode
-/.idea
+# Cache and temporary files
+/.cache
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/tests/coverage
+/tests/*/tmp
