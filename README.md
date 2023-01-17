@@ -78,7 +78,7 @@ To use a specific layout, you can pass its name to the `layout()` method.
 
 You can add as many different slots to your layout as you need. The default slot goes without a specific name. Every other slot needs a unique name. Slots in layouts can define default content, which will be rendered if the slot is not used in the template.
 
-Read more: http://getkirby.test/docs/guide/templates/snippets#passing-slots-to-snippets
+Read more: http://getkirby.com/docs/guide/templates/snippets#passing-slots-to-snippets
 
 ## What’s Kirby?
 
