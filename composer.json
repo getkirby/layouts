@@ -3,7 +3,7 @@
 	"description": "Kirby Layouts",
 	"license": "MIT",
 	"type": "kirby-plugin",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"keywords": [
 		"kirby",
 		"cms",
@@ -43,20 +43,16 @@
 	"scripts": {
 		"analyze": [
 			"@analyze:composer",
-			"@analyze:psalm",
 			"@analyze:phpcpd",
 			"@analyze:phpmd"
 		],
 		"analyze:composer": "composer validate --strict --no-check-version --no-check-all",
-		"analyze:phpcpd": "phpcpd --fuzzy --exclude tests --exclude vendor .",
-		"analyze:phpmd": "phpmd . ansi phpmd.xml.dist --exclude 'tests/*,vendor/*'",
-		"analyze:psalm": "psalm",
+		"analyze:phpcpd": "phpcpd --fuzzy .",
+		"analyze:phpmd": "phpmd . ansi phpmd.xml.dist",
 		"ci": [
 			"@fix",
-			"@analyze",
-			"@test"
+			"@analyze"
 		],
-		"fix": "php-cs-fixer fix",
-		"test": "phpunit --stderr --coverage-html=tests/coverage"
+		"fix": "php-cs-fixer fix"
 	}
 }
