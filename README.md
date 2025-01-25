@@ -90,7 +90,7 @@ Read more: http://getkirby.com/docs/guide/templates/snippets#passing-slots-to-sn
 - **[Forum](https://forum.getkirby.com)** – Whenever you get stuck, don't hesitate to reach out for questions and support.
 - **[Discord](https://chat.getkirby.com)** – Hang out and meet the community.
 - **[Mastodon](https://mastodon.social/@getkirby)** – Spread the word.
-- **[Instagram](https://www.instagram.com/getkirby/)** – Share your creations: #madewithkirby.
+- **[Bluesky](https://bsky.app/profile/getkirby.com)** – Spread the word.
 
 ---
 
